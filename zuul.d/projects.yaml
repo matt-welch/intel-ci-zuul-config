@@ -3,3 +3,9 @@
     check:
       jobs:
         - noop
+
+- project:
+    name: zuul-config
+    check:
+      jobs:
+        - noop
