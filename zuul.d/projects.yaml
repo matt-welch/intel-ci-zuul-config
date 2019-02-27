@@ -3,10 +3,3 @@
     check:
       jobs:
         - noop
-#       - run-test-command
-
-  # - project:
-  #     name: openstack/tap-as-a-service
-  #     check:
-  #       jobs:
-  #         - tap-as-a-service-dsvm-intel-sriov
