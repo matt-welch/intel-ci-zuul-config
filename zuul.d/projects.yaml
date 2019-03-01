@@ -2,7 +2,7 @@
     name: openstack-dev/ci-sandbox
     check:
       jobs:
-        - verify-test-success
+        - run-test-command
 
 - project:
     name: zuul-config
