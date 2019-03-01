@@ -3,9 +3,11 @@
     check:
       jobs:
         - run-test-command
+        - verify-test-success
 
 - project:
     name: zuul-config
     check:
       jobs:
-        - noop
+        - run-test-command
+        - verify-test-success
