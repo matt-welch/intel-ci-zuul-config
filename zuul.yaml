@@ -54,3 +54,7 @@
     roles:
       - zuul: zuul-jobs
     timeout: 3500
+    nodeset:
+      nodes:
+        - name: ubuntu-xenial
+          label: ubuntu-xenial
