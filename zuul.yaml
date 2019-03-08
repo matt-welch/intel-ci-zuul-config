@@ -54,7 +54,3 @@
     roles:
       - zuul: zuul-jobs
     timeout: 3500
-    nodeset:
-      nodes:
-        - name: ubuntu-bionic
-          label: ubuntu-bionic
