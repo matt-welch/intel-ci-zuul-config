@@ -36,6 +36,11 @@
       jobs:
         - verify-test-success
 
+- nodeset:
+    nodes:
+      - name: normal-nodes
+        label: ubuntu-bionic
+
 - job:
     name: base
     parent: null
@@ -54,7 +59,4 @@
     roles:
       - zuul: zuul-jobs
     timeout: 3500
-    nodeset:
-      nodes:
-        - name: ubuntu-xenial
-          label: ubuntu-xenial
+    nodeset: normal-nodes
