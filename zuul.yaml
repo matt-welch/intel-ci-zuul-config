@@ -56,7 +56,5 @@
     timeout: 3500
     nodeset:
       nodes:
-        - name: ubuntu-bionic
-          label: ubuntu-bionic
         - name: ubuntu-xenial
           label: ubuntu-xenial
