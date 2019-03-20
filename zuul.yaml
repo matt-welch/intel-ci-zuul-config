@@ -31,6 +31,12 @@
         - verify-test-success
 
 - project:
+    name: openstack/tap-as-a-service
+    check:
+      jobs:
+        - tap-as-a-service-dsvm-intel-sriov
+
+- project:
     name: openstack-dev/ci-sandbox
     check:
       jobs:
