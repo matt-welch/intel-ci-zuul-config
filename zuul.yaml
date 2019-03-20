@@ -25,6 +25,13 @@
       mysql:
 
 - project:
+    name: ^.*$
+    check:
+      jobs: []
+    gate:
+      jobs: []
+
+- project:
     name: intel-ci-zuul-config
     check:
       jobs:
@@ -43,12 +50,6 @@
         - verify-test-success
         - tap-as-a-service-dsvm-intel-sriov
         - goodbyejob
-
-  #- project:
-  #    name: openstack/tap-as-a-service
-  #    check:
-  #      jobs:
-  #        - tap-as-a-service-dsvm-intel-sriov
 
 - job:
     name: base
