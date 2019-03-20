@@ -48,7 +48,6 @@
     check:
       jobs:
         - verify-test-success
-        - tap-as-a-service-dsvm-intel-sriov
         - goodbyejob
 
 - job:
@@ -71,5 +70,5 @@
     timeout: 3500
     nodeset:
       nodes:
-        - name: ubuntu-bionic
-          label: ubuntu-bionic
+        - name: ubuntu-xenial
+          label: ubuntu-xenial
