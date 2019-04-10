@@ -49,6 +49,7 @@
       jobs:
         - verify-test-success
         - goodbyejob
+        - openstack-tox-lower-constraints
 
 - job:
     name: base
