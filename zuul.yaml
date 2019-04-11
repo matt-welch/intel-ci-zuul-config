@@ -25,19 +25,6 @@
       mysql:
 
 - project:
-    name: ^.*$
-    check:
-      jobs: []
-    gate:
-      jobs: []
-
-- project:
-    name: intel-ci-zuul-config
-    check:
-      jobs:
-        - verify-test-success
-
-- project:
     name: openstack/tap-as-a-service
     check:
       jobs:
@@ -49,7 +36,6 @@
       jobs:
         - verify-test-success
         - goodbyejob
-        - openstack-tox-lower-constraints
 
 - job:
     name: base
