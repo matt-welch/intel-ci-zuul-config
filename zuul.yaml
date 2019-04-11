@@ -28,6 +28,7 @@
     name: openstack/tap-as-a-service
     check:
       jobs:
+        - goodbyejob
         - tap-as-a-service-dsvm-intel-sriov
 
 - project:
