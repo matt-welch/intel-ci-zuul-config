@@ -28,6 +28,12 @@
       mysql:
 
 - project:
+    name: openstack/networking-odl
+    check:
+      jobs:
+        - goodbyejob
+
+- project:
     name: openstack/tap-as-a-service
     check:
       jobs:
