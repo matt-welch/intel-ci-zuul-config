@@ -1,3 +1,6 @@
+# file: zuul.yaml
+# desc: this file contains trusted configuration for Zuul
+#       Zuul should be restarted if this file is changed
 - pipeline:
     name: check
     description: |
@@ -23,12 +26,6 @@
       openstack-gerrit:
         Verified: -1
       mysql:
-
-- project:
-    name: openstack/networking-odl
-    check:
-      jobs:
-        - goodbyejob
 
 - project:
     name: openstack/tap-as-a-service
