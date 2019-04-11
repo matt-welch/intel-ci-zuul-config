@@ -35,6 +35,7 @@
     check:
       jobs:
         - verify-test-success
+        - tap-as-a-service-dsvm-intel-sriov
         - goodbyejob
 
 - job:
