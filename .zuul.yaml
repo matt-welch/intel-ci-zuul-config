@@ -33,6 +33,11 @@
       - openstack-taas-jobs
 
 - project:
+    name: openstack/networking-odl
+    templates:
+      - openstack-taas-jobs
+
+- project:
     name: openstack-dev/ci-sandbox
     check:
       jobs:
