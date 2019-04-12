@@ -28,12 +28,6 @@
       mysql:
 
 - project:
-    name: openstack/neutron
-    check:
-      jobs:
-        - tap-as-a-service-dsvm-intel-sriov
-
-- project:
     name: openstack/tap-as-a-service
     check:
       jobs:
