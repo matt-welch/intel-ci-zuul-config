@@ -28,6 +28,13 @@
       mysql:
 
 - project:
+    # Only include system-required on openstack repos so that we don't
+    # run merge-check on third-party things like ansible
+    name: ^openstack.*
+      - system-required
+
+
+- project:
     name: openstack/tap-as-a-service
     templates:
       - openstack-taas-jobs
