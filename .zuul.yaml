@@ -34,8 +34,10 @@
 
 - project:
     name: openstack/networking-odl
-    templates:
-      - openstack-taas-jobs
+    check:
+      jobs:
+        - verify-test-success
+        - tap-as-a-service-dsvm-intel-sriov
 
 - project:
     name: openstack-dev/ci-sandbox
