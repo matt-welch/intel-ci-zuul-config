@@ -28,10 +28,10 @@
       mysql:
 
 - project:
-    name: openstack/networking-odl
+    name: openstack/neutron
     check:
       jobs:
-        - goodbyejob
+        - tap-as-a-service-dsvm-intel-sriov
 
 - project:
     name: openstack/tap-as-a-service
