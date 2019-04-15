@@ -40,13 +40,6 @@
       - openstack-taas-jobs
 
 - project:
-    name: openstack/networking-odl
-    check:
-      jobs:
-        - verify-test-success
-        - tap-as-a-service-dsvm-intel-sriov
-
-- project:
     name: openstack-dev/ci-sandbox
     check:
       jobs:
